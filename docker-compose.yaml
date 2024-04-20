@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    volumes:
+      - /var/run/dbus:/var/run/dbus 
+    stdin_open: true 
+    tty: true
+    command: ["tail", "-f", "/dev/null"]
+
+    
