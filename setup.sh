@@ -1,3 +1,2 @@
 . ./venv/bin/activate
-python3 --version
-which python3
+pip install -r ./requirements.txt
