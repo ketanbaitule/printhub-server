@@ -26,7 +26,7 @@ def check_internet(url):
         return True
     except requests.ConnectionError:
         return False
-    
+
 def print_individual_record(client, location, printer_name, options={}):
     try:
         res = client.storage.from_("files_storage").download(location)
@@ -69,5 +69,6 @@ if __name__ == "__main__":
                 ws.run_forever()
             else:
                 time.sleep(1)
+                logger.log("No internet connection")
         except Exception as e:
             logger.exception("Exception")
