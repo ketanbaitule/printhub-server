@@ -2,3 +2,4 @@
 printer.log
 venv
 src/__pycache__
+dist/
