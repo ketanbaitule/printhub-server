@@ -1,2 +1,4 @@
 .env
 printer.log
+venv
+src/__pycache__
