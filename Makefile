@@ -13,7 +13,4 @@ setup-fedora:
 setup:
 	chmod +x ./setup.sh
 	./setup.sh
-
-run:
-	. venv/bin/activate
-	python3 ./printhub.py
+	chmod +x ./run.sh
