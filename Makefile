@@ -15,5 +15,5 @@ setup:
 	./setup.sh
 
 run:
-	source venv/bin/activate
+	. venv/bin/activate
 	python3 ./printhub.py
